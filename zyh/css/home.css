@@ -1,0 +1,79 @@
+/* ssc页面重置公共样式*/
+html, body {
+    color: #222;
+    font-family: Microsoft YaHei, Helvitica, Verdana, Tohoma, Arial, san-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+input {
+    font-family: Microsoft YaHei, Helvitica, Verdana, Tohoma, Arial, san-serif;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+ol, ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+i, em {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clr {
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+.copyright {
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.copyright a {
+    color: #fff;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+body {
+    text-align: center;
+    padding: 2%;
+}
+
+.content_download {
+    width: 100%;
+    height: auto;
+    background: #f8f8f8;
+    border-top: 1px solid #ededed;
+}
+
+.block {
+    clear: both;
+    height: 1.17em;
+    width: 100%;
+}
