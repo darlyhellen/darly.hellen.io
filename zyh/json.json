@@ -1,16 +1,9 @@
 {
-    "star_male": [
+    "status":1,
+    "message":"返回成功",
+    "data":
         {
-            "name": "鹿晗",
-            "age": 26
-        },
-        {
-            "name": "李易峰",
-            "age": 29
-        },
-        {
-            "name": "陈赫",
-            "age": 31
+            "url": "http://gdown.baidu.com/data/wisegame/02ba8a69a5a792b1/QQ_500.apk", 
+            "version": 2
         }
-    ]
 }
