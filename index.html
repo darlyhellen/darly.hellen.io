@@ -19,15 +19,17 @@
 
 <body>
 
-<div id="collegelist">
+<div id="list">
 
 </div>
 
 </body>
 <script type="text/javascript">
+    var jsons = ["college.json","kindergarten.json"];
     onload = function () {
-        getJson("college.json");
-        getJson("kindergarten.json");
+        for(var i in jsons){
+            getJson(jsons[i])
+        }
     }
     var firstshow = false;
 
@@ -44,7 +46,7 @@
                 var json = xmlhttp.responseText;
                 var t = JSON.parse(json);
                 console.log(t);
-                var div = document.getElementById("collegelist");
+                var div = document.getElementById("list");
                 for (var item in t.data) {
                     if (t.data[item].title == "通知公告") {
                         if (!firstshow){
