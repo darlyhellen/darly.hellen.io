@@ -1,45 +1,84 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="zh-cn">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport"
-          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
-    <title>测试首页</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" name="viewport">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
-    <link href="css/download.css" rel="stylesheet" type="text/css"/><!--公共样式-->
-    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/mobeilcop.js"></script><!--全兼容-->
+    <meta name="format-detection" content="email=no">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="author" content="Darly">
+    <title>信息列表</title>
+
 </head>
-<body style="background:#f0f0f0;">
-<!--顶部top-->
-<div class="top_download" onclick="toZyh()">
-    <p style="margin-top: 0.45em;"><span>信息系统项目管理</span></p>
-</div>
-<div class="block_top"></div>
-<!--开始-->
-<div class="content_download" style="padding: 1.5em 0 1.5em 0;">
-    <p class="logo_download">
-        <img src="img/beijing.png">
-    </p>
 
-    <p style="margin-top: 0.5em;">
-        <a href="javascript:void(0)" class="btn_download" onclick="_system._guide(true)"></a>
-    </p>
-    <p class="tishi" style="margin-top: 0.5em;">
-        <span>版本解释权归DarlyHellen所有</span>
-    </p>
-    <p class="tishi">
-        <span>说明：</span>
-    </p>
+<body>
+
+<div id="collegelist">
+
 </div>
+
 </body>
-<!-- 弹出蒙版 -->
-<div id="cover"></div>
-<div id="guide"><img src="img/beijing.png"></div>
 <script type="text/javascript">
+    onload = function () {
+        getJson("college.json");
+        getJson("kindergarten.json");
+    }
+    var firstshow = false;
 
+    function getJson(url) {
+        var xmlhttp;
+        if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        }
+        else {// code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                var json = xmlhttp.responseText;
+                var t = JSON.parse(json);
+                console.log(t);
+                var div = document.getElementById("collegelist");
+                for (var item in t.data) {
+                    if (t.data[item].title == "通知公告") {
+                        if (!firstshow){
+                            firstshow = true;
+                        }else {
+                            continue;
+                        }
+                    }
+                    var image = "<img alt='Darly大学生入学指南' title='Darly大学生入学指南'src=" + t.data[item].image + " >"
+                    var img = document.createElement("p");
+                    img.innerHTML = image;
+                    var title = "<strong>" + t.data[item].title + "<strong>";
+                    var p = document.createElement("p");
+                    p.innerHTML = title;
+                    var cout = document.createElement("p");
+                    cout.innerHTML = t.data[item].synopsis;
+                    var dis = document.createElement("div");
+                    var clik = "divClick('" + t.data[item].url + "')";
+                    dis.setAttribute("onclick", clik);
+                    dis.appendChild(img);
+                    dis.appendChild(p);
+                    dis.appendChild(cout);
+                    div.appendChild(dis);
+                }
+            }
+        }
+        xmlhttp.open("GET", url, true);
+        xmlhttp.send();
+    }
+
+    function divClick(url) {
+        console.log(url);
+        window.top.location = url;
+    }
 </script>
 
 </html>
