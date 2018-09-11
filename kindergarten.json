@@ -1,0 +1,18 @@
+{
+  "code": 1,
+  "message": "幼儿园信息列表整理成功",
+  "data": [
+    {
+      "url": "https://darlyhellen.github.io/kindergarten/kindergartenrole.html",
+      "image": "https://darlyhellen.github.io/kindergarten/img/20171216181935_0a48f79e4e90a6ef30634ebc74a53ee6_12.jpeg",
+      "title": "通知公告",
+      "synopsis": "使用公告，使用规则"
+    },
+    {
+      "url": "https://darlyhellen.github.io/kindergarten/kindergartenworkguide.html",
+      "image": "https://darlyhellen.github.io/kindergarten/img/20171216181935_0a48f79e4e90a6ef30634ebc74a53ee6_1.jpeg",
+      "title": "幼儿园安全工作指南",
+      "synopsis": "在学前阶段，安全工作一直是重中之重。除了在幼儿园外的安全工作，幼儿在幼儿园内学习、生活，教师也必须刻注意可能发生的安全隐患。"
+    }
+  ]
+}
