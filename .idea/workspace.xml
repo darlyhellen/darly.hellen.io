@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c6fab38-120d-4802-af24-c916d4eb569f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/college/img/1_0rgqa__.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/college/img/1_7wv24__.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/college/img/1_8lrfr__.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/college/img/1_8nosu__.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/college/img/1_8sqmg__.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/college/img/1_fiol1__.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/college/img/1_ih7gl__.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/college/img/1_krpao__.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/college/img/1_ypuau__.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/college.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/college/collegeguide.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/role.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kindergarten.json" afterPath="$PROJECT_DIR$/kindergarten.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kindergarten/kindergartenrole.html" afterPath="$PROJECT_DIR$/kindergarten/kindergartenrole.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kindergarten/kindergartenworkguide.html" afterPath="$PROJECT_DIR$/kindergarten/kindergartenworkguide.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/college.json" afterPath="$PROJECT_DIR$/college.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/college/collegeguide.html" afterPath="$PROJECT_DIR$/college/collegeguide.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/college/img/1_0rgqa__.png" afterPath="$PROJECT_DIR$/college/img/10rgqa.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/college/img/1_7wv24__.gif" afterPath="$PROJECT_DIR$/college/img/17wv24.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/college/img/1_8lrfr__.png" afterPath="$PROJECT_DIR$/college/img/18lrfr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/college/img/1_8nosu__.png" afterPath="$PROJECT_DIR$/college/img/18nosu.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/college/img/1_8sqmg__.jpg" afterPath="$PROJECT_DIR$/college/img/18sqmg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/college/img/1_fiol1__.png" afterPath="$PROJECT_DIR$/college/img/1fiol1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/college/img/1_ih7gl__.png" afterPath="$PROJECT_DIR$/college/img/1ih7gl.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/college/img/1_krpao__.png" afterPath="$PROJECT_DIR$/college/img/1krpao.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/college/img/1_ypuau__.png" afterPath="$PROJECT_DIR$/college/img/1ypuau.png" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,35 +30,42 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="42" column="67" lean-forward="true" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="college.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="college.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/college.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+              <caret line="12" column="68" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="68" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1ypuau.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/college/img/1ypuau.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="collegeguide.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/college/collegeguide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+            <state relative-caret-position="441">
+              <caret line="125" column="46" lean-forward="true" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#47;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#57;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#66;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#76;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#6738#6743#0" expanded="true" />
+                <element signature="e#6713#6718#0" expanded="true" />
                 <element signature="n#style#0;n#p#88;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#102;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -203,7 +205,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536626277716</updated>
-      <workItem from="1536626281384" duration="11533000" />
+      <workItem from="1536626281384" duration="11976000" />
     </task>
     <task id="LOCAL-00001" summary="添加json文件，幼儿园相关信息，公告和幼儿园指南。">
       <created>1536629172084</created>
@@ -212,11 +214,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536629172085</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加json文件，大学生入学相关指南信息。">
+      <created>1536651534784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536651534784</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11533000" />
+    <option name="totallyTimeSpent" value="11976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -247,7 +256,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加json文件，幼儿园相关信息，公告和幼儿园指南。" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加json文件，幼儿园相关信息，公告和幼儿园指南。" />
+    <MESSAGE value="添加json文件，大学生入学相关指南信息。" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加json文件，大学生入学相关指南信息。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -497,28 +507,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="42" column="67" lean-forward="true" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/college/img/1_ypuau__.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/college/collegeguide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        <state relative-caret-position="441">
+          <caret line="125" column="46" lean-forward="true" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#47;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#57;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#66;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#76;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6738#6743#0" expanded="true" />
+            <element signature="e#6713#6718#0" expanded="true" />
             <element signature="n#style#0;n#p#88;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#102;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -528,9 +533,14 @@
     <entry file="file://$PROJECT_DIR$/college.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+          <caret line="12" column="68" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="68" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/college/img/1ypuau.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
